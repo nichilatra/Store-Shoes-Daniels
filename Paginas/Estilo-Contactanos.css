@@ -1,0 +1,36 @@
+body{
+    background-color:lightseagreen;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}

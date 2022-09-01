@@ -1,0 +1,84 @@
+body{
+    background-color:lightseagreen;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+p{
+    color:linen;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+  }
+
+  .main {
+
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.Parrafo-Trabaja {
+    background:darkorchid;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    padding-right: 20px;
+    
+} */ 
+
+.padre {
+    background: rgb(175, 20, 123); /* Color del div*/ 
+    display: table;/*Para que tenga el comportamiento de una tabla*/ 
+    height: 220px; /* Altura*/ 
+    margin: 2rem auto; /*Para centrar*/ 
+    text-align: center;/*Centrar texto*/ 
+    width: 300px;
+}
+
+.padre p {
+    display: table-cell;/*Que tenga el comportamiento de una tabla*/ 
+    font-size: 1rem;
+    margin: 0;/*Margen*/ 
+    padding: 0 1rem;/*Para despegar de los lados*/ 
+    vertical-align: middle;/*Alinear el contenido de las tablas*/ 
+    color: black;/*Color de fuente*/ 
+}
