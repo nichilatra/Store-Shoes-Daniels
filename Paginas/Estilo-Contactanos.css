@@ -34,3 +34,21 @@ nav a {
     font-weight: 600;
     padding-right: 10px;
 }
+
+.parrafo {
+    background: rgba(160, 71, 12, 0.644); /* Color del div*/ 
+    display: table;/*Para que tenga el comportamiento de una tabla*/ 
+    height: 220px; /* Altura*/ 
+    margin: 2rem auto; /*Para centrar*/ 
+    text-align: center;/*Centrar texto*/ 
+    width: 300px;/*Ancho*/ 
+}
+
+.parrafo p {
+    display: table-cell;/*Que tenga el comportamiento de una tabla*/ 
+    font-size: 2rem; /*Tamaño de la fuente*/ 
+    margin: 0;/*Margen*/ 
+    padding: 0 1rem;/*Para despegar de los lados*/ 
+    vertical-align: middle;/*Alinear el contenido de las tablas*/ 
+    color: white;/*Color de fuente*/ 
+}
