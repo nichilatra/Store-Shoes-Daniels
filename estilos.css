@@ -25,6 +25,20 @@ header {
     align-items: center;
 }
 
+.uno{
+    background-color: black;
+    display: inline-flex;
+}
+
+.uno a{
+    color: white;
+    padding: 0 10px;
+}
+
+.uno a:hover{
+background-color: blue;
+}
+
 .seccion1 {
     background:darkorchid;
     width: 70%;
@@ -39,10 +53,9 @@ header {
     
 }
 
-main section:hover{
-    color: blue;
+
     
-}
+
 
 .seccion2 {
     background:coral;
